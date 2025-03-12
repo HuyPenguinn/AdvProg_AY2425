@@ -20,7 +20,8 @@ double mySqrt(double x);
 ***/
 double myCos(double x) 
 {
-    return 0.0;
+    double res = std::cos(x);
+    return res;
 }
 
 /***
@@ -31,7 +32,8 @@ double myCos(double x)
 ***/
 double mySin(double x)
 {
-    return 0.0;
+    double res = std::sin(x);
+    return res;
 }
 
 
@@ -47,6 +49,7 @@ double mySqrt(double x) {
         exit(1);
     }
 
+    double res = std::sqrt(x);
     
-    return 0;
+    return res;
 }
